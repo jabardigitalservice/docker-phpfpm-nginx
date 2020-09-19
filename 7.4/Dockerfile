@@ -12,7 +12,6 @@ RUN echo "https://dl.bintray.com/php-alpine/v3.10/php-7.4" >> /etc/apk/repositor
 
 # Install packages
 RUN apk --no-cache add php php-fpm php-opcache php-pdo php-json php-openssl php-curl \
-    php-zlib php-xml php-phar php-intl php-dom php-xml php-xmlreader php-ctype php-session \
     php-mbstring nginx supervisor curl
 
 # https://github.com/codecasts/php-alpine/issues/21
